@@ -1,0 +1,163 @@
+/* External CSS  */
+#heading_one {
+  color: violet;
+  border: 20px solid #5e676c;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
+  padding: 30px;
+  background-color: cadetblue;
+  text-align: center;
+}
+#heading_one_alt {
+  color: rebeccapurple;
+  border: 20px solid #6b5491;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
+  padding: 30px;
+  background-color: aquamarine;
+  text-align: center;
+}
+p {
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 20px;
+  color: brown;
+  border: 2px solid #0c2d0c;
+  text-align: justify;
+} 
+.heading_one {
+  color: violet;
+  border: 20px solid #5e676c;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
+  padding: 30px;
+  background-color: cadetblue;
+  text-align: center;
+}
+.heading_one_alt {
+  color: rebeccapurple;
+  border: 20px solid #6b5491;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
+  padding: 30px;
+  background-color: aquamarine;
+  text-align: center;
+}
+p.center {
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 20px;
+  color: brown;
+  border: 2px solid #0c2d0c;
+  text-align: justify;
+}
+/* CSS Fonts  */
+@font-face {
+  font-family: main_font_regular;
+  src: url("../fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: main_font_bold;
+  src: url("../fonts/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: main_font_italic;
+  src: url("../fonts/Poppins-Italic.ttf");
+}
+
+.container {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.box {
+  background-color: teal;
+  padding: 30px;
+  border-radius: 30px;
+}
+h1 {
+  color: teal;
+  font-family: main_font_bold;
+}
+
+p {
+  color: blueviolet;
+  font-family: main_font_regular;
+}
+.link{
+    text-decoration: none;
+    color:teal;
+    cursor:pointer;
+}
+.form{
+    background-color: #f2a0af;
+    width: 40vw;
+    height: 50vh;
+    padding: 50px;
+
+}
+.form-label{
+    color: #751c1c;
+    font-family: main_font_regular;
+    margin-bottom: 10px;
+    margin-left: 5px;
+
+}
+.form-group{
+    border: 1px solid rgb(50, 164, 84);
+    border-radius: 20px;
+    height: 25px;
+    font-family: main_font_regular;
+    width: 250px;
+
+}
+.btn-primary {
+  background-color: rgb(76, 189, 45);
+  color: rgb(123, 120, 137);
+  border: none;
+  font-family: main_font_regular;
+  border-radius: 20px;
+  height: 30px;
+  width: 250px;
+}
+.btn-primary:hover {
+  background-color: #cdc153;
+  color: rgb(223, 92, 199);
+  font-family: main_font_regular;
+  border: 1px solid rgb(54, 198, 169);
+  border-radius: 20px;
+  height: 30px;
+  width: 250px;
+}
+/* navigation bar  */
+:root {
+  --primary-text-color: #0063c5;
+  --primary-secondary-color: #0c0d0d;
+  --default-background-color: #b2bdc7;
+  --default-margin: 20px;
+  --default-border: 2px solid tomato;
+  --default-padding: 10px;
+}
+body {
+  background-color: var(--default-background-color);
+}
+h1 {
+  font-size: 5rem;
+  border: var(--default-border);
+  padding: var(--default-padding);
+}
+h2 {
+  border: var(--default-background-color);
+  padding: var(--default-padding);
+}
+p {
+  color: var(--primary-secondary-color);
+  padding: var(--default-padding);
+  margin: var(--default-margin);
+  border: var(--default-border);
+}
